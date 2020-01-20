@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Sign Up Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <meta name="description" content="">
     <meta name="author" content="Guilherme Recordon & Marcos Hernández">
@@ -12,34 +12,60 @@
 
 <body>
     <div id="sign-in">
-        <div>
+        <div class="navigation-wrapper">
             <div>Already have an Intuit account?</div>
-            <a href="">I forgot my User ID or Password </a>
+            <a id="account-recovery-link" href="">I forgot my User ID or Password </a>
         </div>
         <div>
-            <span></span>
-            <button id="sign-in-button">Sign in</button>
+            <span>lock icon</span>
+            <button id="sign-in-button" class="btn">Sign in</button>
         </div>
     </div>
-    <header>
-        <a href="#" class=""></a>
+    <header id="main-header">
+        <a href="#" class="">Intuit Logo</a>
     </header>
-    <section>
-        <div>
-            <header>
-                <div></div>
-            </header>
-            <div id="main-container">
-                <header>
-                    <span>Create an intuit account.</span>
-                    <span>One account for everything Intuit, including Mint.</span>
-                    <a href="#">Learn more</a>
-
+    <section class="main-container">
+        <div class="main-widget-container">
+            <div class="logos-outside-card">
+                <header class="sign-up-logo-header">
+                    <ul id="sign-up-bottom-header-logo">
+                        <li class="mint-favicon"></li>
+                        <li class="mint-text"></li>
+                        <li class="quickbooks-favicon"></li>
+                        <li class="quickbooks-text"></li>
+                        <li class="turbotax-favicon"></li>
+                        <li class="turbotax-text"></li>
+                    </ul>
                 </header>
-                <footer>
-
-                </footer>
             </div>
+            <div id="sign-up-wrapper">
+                <div id="main-container">
+                    <header id="header-container">
+                        <span id="sign-up-header">Create an intuit account.</span>
+                        <span id="sign-up-subheader"></span>
+                        <span id="sign-up-subheader-italicized-prompt"></span>
+                        <a id="subheader-italicezed-link"></a>
+                        <span id="subheader-prompt">
+                            <div>
+                                One account for everything Intuit, including Mint.
+                            </div>
+                            <a id="learn-more" href="#">Learn more</a>
+                        </span>
+                    </header>
+                    <fieldset id="fieldset-email">
+                        <label id="label-email"></label>
+                        <div class="text-input-container">
+                            <input id="email">
+                        </div>
+                    </fieldset>
+
+                </div>
+            </div>
+
+
+            <footer>
+
+            </footer>
         </div>
     </section>
 
