@@ -7,17 +7,25 @@
     <meta name="description" content="">
     <meta name="author" content="Guilherme Recordon & Marcos Hernández">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <div id="sign-in">
         <div class="navigation-wrapper">
-            <div>Already have an Intuit account?</div>
-            <a id="account-recovery-link" href="">I forgot my User ID or Password </a>
-        </div>
-        <div>
-            <span>lock icon</span>
-            <button id="sign-in-button" class="btn">Sign in</button>
+            <div class="navigation-container">
+                <div class="nav-left">
+                    <div>Already have an Intuit account?</div>
+                    <a id="account-recovery-link" href="">I forgot my User ID or Password </a>
+                </div>
+                <div class="nav-right">
+
+                    <button id="sign-in-button" class="btn">
+                        <span class="material-icons" id="signin-lock">lock</span>
+                        Sign in
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
     <header id="main-header">
