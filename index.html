@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="author" content="Guilherme Recordon & Marcos Hernández">
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
@@ -38,40 +37,48 @@
                     </ul>
                 </header>
             </div>
-            <div id="sign-up-wrapper">
-                <div id="main-container">
-                    <header id="header-container">
-                        <span id="sign-up-header">Create an intuit account.</span>
-                        <span id="sign-up-subheader"></span>
-                        <span id="sign-up-subheader-italicized-prompt"></span>
-                        <a id="subheader-italicezed-link"></a>
-                        <span id="subheader-prompt">
-                            <div>
-                                One account for everything Intuit, including Mint.
-                            </div>
-                            <a id="learn-more" href="#">Learn more</a>
-                        </span>
-                    </header>
-                    <fieldset id="fieldset-email">
-                        <label id="label-email"></label>
+            <div id="main-container">
+                <header id="header-container">
+                    <h1 id="sign-up-header">Create an intuit account.</h1>
+                    <span id="subheader-prompt">
+                        <div>
+                            One account for everything Intuit, including Mint.
+                        </div>
+                        <a id="learn-more" href="#">Learn more</a>
+                    </span>
+                </header>
+                <div id="form-elements">
+                    <label id="label-email" for="email">
+                        Email adress
                         <div class="text-input-container">
                             <input id="email">
                         </div>
+                    </label>
+                    <label id="label-phone" for="phone">
+                        Phone (recommended)
+                        <div class="text-input-container">
+                            <input id="phone">
+                            <legend>Standard call, messaging or data rates may apply.</legend>
+                        </div>
+                    </label>
+                    <label id="label-password" for="password">
+                        Password
+                        <div class="text-input-container">
+                            <input id="password">
+                        </div>
+                    </label>
+                    <button id="create-account" class="btn">Create Account</button>
                     </fieldset>
-
+                    <legend>
+                        By clicking Create account, you agree to our
+                        Terms and have read and acknowledge our Privacy Statement.
+                    </legend>
+                    <div id="form-footer">
+                        Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+                    </div>
                 </div>
             </div>
-
-
-            <footer>
-
-            </footer>
-        </div>
     </section>
-
-
-
-
 
     <footer>
         <ul>

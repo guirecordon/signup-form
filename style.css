@@ -1,0 +1,28 @@
+body{
+    background-color: #ECEEF1;
+}
+#main-container{
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid #C7C7C7;
+    width: 600px;
+
+}
+#header-container{
+    text-align: center;
+}
+#sign-up-header{
+
+}
+#form-elements{
+    
+
+}
+#form-footer{
+    background-color: #ECEEF1;
+
+}
+.btn{
+    background-color: #0C7AC9;
+    border: 0px;
+}
