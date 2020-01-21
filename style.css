@@ -1,13 +1,52 @@
+html {
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
 body{
     background-color: #ECEEF1;
 }
 #main-container{
-    margin: 0 auto;
+    margin: auto;
     background-color: white;
-    border: 2px solid #C7C7C7;
-    width: 600px;
-
+    border: 1px solid #C7C7C7;
+    border-radius: 2px;
+    width: 380px;
+    padding: 30px;
+    box-sizing: border-box;
 }
+
+.text-input-container {
+    padding-bottom: 20px;
+}
+
+.text-input-container {
+    width: 320px;
+    min-width: 160px;
+    
+}
+
+.input-field {
+    width: 320px;
+    box-sizing: border-box;
+    height: 34px;
+}
+
+label {
+    font-weight: 400;
+    color:
+    #404040;
+font-size: 14px;
+line-height: 25px;
+}
+
+legend {
+    padding: 5px 0;
+    font-size: 10px;
+    color:
+    #444;
+}
+
 #header-container{
     text-align: center;
 }
