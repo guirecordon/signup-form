@@ -5,6 +5,7 @@ html {
 
 body{
     background-color: #ECEEF1;
+
 }
 #main-container{
     margin: auto;
@@ -36,8 +37,8 @@ label {
     font-weight: 400;
     color:
     #404040;
-font-size: 14px;
-line-height: 25px;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 legend {
@@ -59,9 +60,43 @@ legend {
 }
 #form-footer{
     background-color: #ECEEF1;
+    color: #8d9096;
+    text-align: center;
+    font-size: 10px;
+    width: 378px;
+    padding: 16px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 32px -30px -30px;
 
 }
 .btn{
     background-color: #0C7AC9;
     border: 0px;
+}
+ul{
+    list-style: none;
+    display: inline;
+
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+#footer-privacy-link, #footer-security-link{
+    padding-left: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #505050;
+    padding: 20px 0px;
+    line-height: 1.5;
+}
+.footer-links{
+    display: block;
 }
