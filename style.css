@@ -44,6 +44,7 @@ body{
     background: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
+    margin-left: 10px;
     color: white;
     cursor: pointer;
     font-size: 1.125em;
@@ -56,18 +57,57 @@ body{
 #signin-lock {
     height: 1em;
     width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
+    vertical-align: middle;
+    display: inline-block; 
 }
-
+#signin-lock-img {
+    height: 1em;
+    width: .8em;
+}
 
 .material-icons {
     color: white;
 }
+.logo{
+    background-image: url(img/ecosystem_logos.png);
+    /* background-position: 0 0;  */
+    width: 118px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
+.sign-up-logo-header{
+    text-align: center;
+}
 
-
+.favicons{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+.texticons{
+    display: inline-block;
+    height: 20px;
+    width: 37px;
+}
+#mint-icon{
+    background-image: url(img/mint-favicon.svg);
+}
+#mint-text{
+    background-image: url(img/mint-text.svg);
+}
+#quickbooks-icon{
+    background-image: url(img/quickbooks-favicon.svg);
+}
+#quickbooks-text{
+    background-image: url(img/quick-books-text.svg);
+}
+#turbotax-icon{
+    background-image: url(img/tt-favicon.svg);
+}
+#turbotax-text{
+    background-image: url(img/turbo-tax-text.svg);
+}
 #main-container{
     margin: auto;
     background-color: white;
