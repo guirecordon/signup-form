@@ -1,320 +1,323 @@
-@font-face{
-    font-family: 'MintFont';
-    src: 
-        url(fonts/AvenirNextLTPro-Regular.woff2),
-        url(fonts/AvenirNextLTPro-Regular.woff);
+@font-face {
+  font-family: 'MintFont';
+  src: url(fonts/AvenirNextLTPro-Regular.woff2), url(fonts/AvenirNextLTPro-Regular.woff);
 }
 
 html {
-    font-family: 'MintFont';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: left;
+  font-family: 'MintFont', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
 }
 
-body{
-    background-color: #ECEEF1;
-
+body {
+  background-color: #eceef1;
 }
 
 .navigation-wrapper {
-    padding: 2px 20px;
-    background: #eceef1;
-    margin: 0;
-    box-sizing: border-box;
-    height: 50px;
+  padding: 2px 20px;
+  background: #eceef1;
+  margin: 0;
+  box-sizing: border-box;
+  height: 50px;
 }
 
 .navigation-container {
-    float: right;
-    display: block;
-    position: static;
-    color:#505050;
+  float: right;
+  display: block;
+  position: static;
+  color: #505050;
 }
 
 .nav-left {
-    display: block;
-    float: left;
-    margin-left: 10px;
-    text-align: right;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  text-align: right;
 }
 
 .nav-right {
-    display: inline-block;
+  display: inline-block;
 }
 
 #sign-in-button {
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #030303;
-    margin-left: 10px;
-    color: white;
-    cursor: pointer;
-    font-size: 1.125em;
-    font-weight: normal;
-    padding: 0 23px;
-    height: 34px;
-
-    display: inline-block;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  border: 0;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+  padding: 0 23px;
+  height: 34px;
+  display: inline-block;
 }
 
 .signin-lock {
-    background-image: url(img/icon-whitelock.png);
-    display: inline-block; 
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url(img/icon-whitelock.png);
+  display: inline-block;
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
 
 .material-icons {
-    color: white;
-}
-.logo{
-    background-image: url(img/ecosystem_logos.png);
-    width: 118px;
-    height: 35px;
-    display: block;
-    margin: 0 auto;
-}
-.sign-up-logo-header{
-    text-align: center;
+  color: white;
 }
 
-.favicons{
-    display: inline-block;
-    width: 23px;
-    height: 23px;
-    padding-right: 4px;
-    background-repeat: no-repeat;
-}
-.texticons{
-    display: inline-block;
-    height: 20px;
-}
-#turbotax-icon{
-    background-image: url(img/tt-favicon.svg);
-}
-#turbotax-text{
-    background-image: url(img/turbo-tax-text.svg);
-    width: 74px;
-    background-repeat: no-repeat;
-    padding-right: 9px;
-}
-#quickbooks-icon{
-    background-image: url(img/quickbooks-favicon.svg);
-}
-#quickbooks-text{
-    background-image: url(img/quick-books-text.svg);
-    width: 98px;
-    background-repeat: no-repeat;
-    padding-right: 9px;
-}
-#mint-icon{
-    background-image: url(img/mint-favicon.svg);
-}
-#mint-text{
-    background-image: url(img/mint-text.svg);
-    width: 37px;
-    box-sizing: border-box;
-    background-position: 0px 2px;
-    height: 20px;
-    background-repeat: no-repeat;
-}
-#main-header{
-    /* margin: 20px; */
-    padding: 20px 0;
-}
-.space{
-    padding-top: 1px;
-}
-#form-container{
-    margin: 20px auto;
-    background-color: white;
-    border: 1px solid #C7C7C7;
-    border-radius: 2px;
-    width: 380px;
-    padding: 30px;
-    box-sizing: border-box;
-    border-radius: 2px;
+.logo {
+  background-image: url(img/ecosystem_logos.png);
+  width: 118px;
+  height: 35px;
+  display: block;
+  margin: 0 auto;
 }
 
-#subheader-prompt{
-    font-weight: 300;
-    padding: 20px 0px;
-    font-size: 14px;
-    line-height: 1.2;
-
+.sign-up-logo-header {
+  text-align: center;
 }
-.text-input-container {
-    padding-bottom: 20px;
-    
+
+.favicons {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  padding-right: 4px;
+  background-repeat: no-repeat;
+}
+
+.texticons {
+  display: inline-block;
+  height: 20px;
+}
+
+#turbotax-icon {
+  background-image: url(img/tt-favicon.svg);
+}
+
+#turbotax-text {
+  background-image: url(img/turbo-tax-text.svg);
+  width: 74px;
+  background-repeat: no-repeat;
+  padding-right: 9px;
+}
+
+#quickbooks-icon {
+  background-image: url(img/quickbooks-favicon.svg);
+}
+
+#quickbooks-text {
+  background-image: url(img/quick-books-text.svg);
+  width: 98px;
+  background-repeat: no-repeat;
+  padding-right: 9px;
+}
+
+#mint-icon {
+  background-image: url(img/mint-favicon.svg);
+}
+
+#mint-text {
+  background-image: url(img/mint-text.svg);
+  width: 37px;
+  box-sizing: border-box;
+  background-position: 0 2px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+#main-header {
+  /* margin: 20px; */
+  padding: 20px 0;
+}
+
+.space {
+  padding-top: 1px;
+}
+
+#form-container {
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  width: 380px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+#subheader-prompt {
+  font-weight: 300;
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 #open-lock {
-    background-image: url(img/open-lock.png);
-    background-repeat: no-repeat;
-    width: 33px;
-    display: block;
-    position: absolute;
+  background-image: url(img/open-lock.png);
+  background-repeat: no-repeat;
+  background-size: 21px 21px;
+  height: 33px;
+  width: 33px;
+  position: relative;
+  top: -28px;
+  float: right;
 }
 
 .text-input-container {
-    width: 320px;
-    min-width: 160px;
-    
+  width: 320px;
+  min-width: 160px;
+  padding-bottom: 20px;
 }
 
 .input-field {
-    width: 320px;
-    box-sizing: border-box;
-    height: 34px;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #c1c5c8;
+  width: 320px;
+  box-sizing: border-box;
+  height: 34px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c1c5c8;
 }
-fieldset{
-    border: none;
-    margin: 0;
-    padding: 0;
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
+
 label {
-    font-weight: 400;
-    color: #404040;
-    font-size: 14px;
-    line-height: 25px;
-    padding-bottom: 6px;
-    display: block;
-}
-legend {
-    padding: 5px 0;
-    font-size: 10px;
-    color:
-    #444;
-}
-#header-container{
-    text-align: center;
-}
-#sign-up-header{
-    font-size: 2em;
-    font-weight: 400;
-    line-height: 1.1;
-    margin: 0px;
-    color: #4C4C4C;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
 }
 
-#form-footer{
-    background-color: #ECEEF1;
-    color: #8d9096;
-    text-align: center;
-    font-size: 10px;
-    width: 378px;
-    padding: 16px;
-    box-sizing: border-box;
-    outline: none;
-    margin: 32px -30px -30px;
-
+.legend {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
 }
-.btn{
-    /* background-color: #0C7AC9; */
-    background: linear-gradient(180deg,#167ccc 0,#0077c5);
-    border: 0px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
-    color: white;
-    cursor: pointer;
 
+#header-container {
+  text-align: center;
+}
+
+#sign-up-header {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+  color: #4c4c4c;
+}
+
+#form-footer {
+  background-color: #eceef1;
+  color: #8d9096;
+  text-align: center;
+  font-size: 10px;
+  width: 378px;
+  padding: 16px;
+  box-sizing: border-box;
+  outline: none;
+  margin: 32px -30px -30px;
+}
+
+.btn {
+  background: linear-gradient(180deg, #167ccc, 0, #0077c5);
+  border: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  color: white;
+  cursor: pointer;
 }
 
 .create-acc-lock {
-    background-image: url(img/icon-whitelock.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
+  background-image: url(img/icon-whitelock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1em;
+  width: 0.8em;
+  margin-top: 1px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
 }
 
-#create-account{
-    width: 320px;
-    box-sizing: border-box;
-    height: 44px;
-    border-radius: 4px;
-    border-style: solid;
+#create-account {
+  width: 320px;
+  box-sizing: border-box;
+  height: 44px;
+  border-radius: 4px;
+  border-style: solid;
 }
 
 #create-acc-cta {
-    text-shadow: none;
-    font-weight: 400;
-    font-size: 1.3em;
-    color:#fff;
-    line-height: 1.428571429;
-    text-align: center;
-    white-space: nowrap;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
 }
 
-#terms-privacy{
-    text-align: center;
-    padding-top: 30px;
-    line-height: 1.5;
-    font-size: 14px;
-    font-style: italic;
-    color: #757575;
+#terms-privacy {
+  text-align: center;
+  padding-top: 30px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-style: italic;
+  color: #757575;
 }
 
 .loafers {
-    display: block;
-    min-height: 10px;
+  display: block;
+  min-height: 10px;
 }
 
-ul{
-    list-style: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
+ul {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    display: inline;
-    margin: 0;
-    padding: 0;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #0077c5;
+  text-decoration: none;
+  color: #0077c5;
 }
 
-.footer-item{
-    padding: 10px;
+.footer-item {
+  padding: 10px;
 }
 
 .footer-item a {
-    color: #505050;
-    
+  color: #505050;
 }
 
 .footer-item a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
-
-footer{
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    color: #505050;
-    padding: 20px 0px;
-    line-height: 1.5;
-    font-family: none;
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #505050;
+  padding: 20px 0;
+  line-height: 1.5;
+  font-family: none;
 }
