@@ -12,24 +12,27 @@ body{
 }
 
 .navigation-wrapper {
-    float: none;
+    border: 2px dotted red;
     padding: 10px 30px;
     background: #eceef1;
     margin: 0;
     box-sizing: border-box;
+    height: 60px;
 }
 
 .navigation-container {
+    border: 2px dotted blue;
     float: right;
     display: block;
     line-height: 18px;
     position: static;
     font-weight: 400;
-    color:
-    #505050;
+    color:#505050;
+   
 }
 
 .nav-left {
+    border: dotted 2px green;
     display: block;
     float: left;
     margin-left: 10px;
@@ -37,6 +40,7 @@ body{
 }
 
 .nav-right {
+    border: greenyellow 2px dotted;
     display: inline-block;
 }
 
@@ -54,23 +58,25 @@ body{
     display: inline-block;
 }
 
-#signin-lock {
-    height: 1em;
-    width: .8em;
-    vertical-align: middle;
+.signin-lock {
+    background-image: url(img/icon-whitelock.png);
     display: inline-block; 
-}
-#signin-lock-img {
     height: 1em;
     width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 .material-icons {
     color: white;
 }
 .logo{
     background-image: url(img/ecosystem_logos.png);
-    /* background-position: 0 0;  */
     width: 118px;
     height: 35px;
     display: block;
@@ -116,7 +122,8 @@ body{
     background-repeat: no-repeat;
 }
 #main-header{
-    margin: 20px;
+    /* margin: 20px; */
+    padding: 20px 0;
 }
 .space{
     padding-top: 1px;
@@ -140,6 +147,14 @@ h1{
 .text-input-container {
     padding-bottom: 20px;
     
+}
+
+#open-lock {
+    background-image: url(img/open-lock.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    display: block;
+    position: absolute;
 }
 
 .text-input-container {
@@ -197,8 +212,22 @@ legend {
     background-color: #0C7AC9;
     border: 0px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    color: white;
 
 }
+
+.create-acc-lock {
+    background-image: url(img/icon-whitelock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
 #create-account{
     width: 320px;
     box-sizing: border-box;
@@ -208,6 +237,8 @@ legend {
 }
 #terms-privacy{
     text-align: center;
+    padding-top: 30px;
+    line-height: 1.5;
 }
 ul{
     list-style: none;
