@@ -88,38 +88,58 @@ body{
 .texticons{
     display: inline-block;
     height: 20px;
-    width: 37px;
-}
-#mint-icon{
-    background-image: url(img/mint-favicon.svg);
-}
-#mint-text{
-    background-image: url(img/mint-text.svg);
-}
-#quickbooks-icon{
-    background-image: url(img/quickbooks-favicon.svg);
-}
-#quickbooks-text{
-    background-image: url(img/quick-books-text.svg);
 }
 #turbotax-icon{
     background-image: url(img/tt-favicon.svg);
 }
 #turbotax-text{
     background-image: url(img/turbo-tax-text.svg);
+    width: 74px;
+    background-repeat: no-repeat;
 }
-#main-container{
-    margin: auto;
+#quickbooks-icon{
+    background-image: url(img/quickbooks-favicon.svg);
+}
+#quickbooks-text{
+    background-image: url(img/quick-books-text.svg);
+    width: 98px;
+}
+#mint-icon{
+    background-image: url(img/mint-favicon.svg);
+}
+#mint-text{
+    background-image: url(img/mint-text.svg);
+    width: 37px;
+    box-sizing: border-box;
+    background-position: 0px 2px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+#main-header{
+    margin: 20px;
+}
+.space{
+    padding-top: 1px;
+}
+#form-container{
+    margin: 20px auto;
     background-color: white;
     border: 1px solid #C7C7C7;
     border-radius: 2px;
     width: 380px;
     padding: 30px;
     box-sizing: border-box;
+    border-radius: 2px;
 }
-
+h1{
+    margin: 0px;
+}
+#subheader-prompt{
+    padding: 20px 0px;
+}
 .text-input-container {
     padding-bottom: 20px;
+    
 }
 
 .text-input-container {
@@ -132,6 +152,8 @@ body{
     width: 320px;
     box-sizing: border-box;
     height: 34px;
+    border-radius: 4px;
+    border-style: solid;
 }
 
 label {
@@ -174,22 +196,38 @@ legend {
 .btn{
     background-color: #0C7AC9;
     border: 0px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+
+}
+#create-account{
+    width: 320px;
+    box-sizing: border-box;
+    height: 34px;
+    border-radius: 4px;
+    border-style: solid;
+}
+#terms-privacy{
+    text-align: center;
 }
 ul{
     list-style: none;
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 li {
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-#footer-privacy-link, #footer-security-link{
-    padding-left: 10px;
+.footer-item{
+    padding: 10px;
 }
 
 footer{
