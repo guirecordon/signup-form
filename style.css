@@ -177,6 +177,8 @@ body{
     height: 34px;
     border-radius: 4px;
     border-style: solid;
+    border-width: 1px;
+    border-color: #c1c5c8;
 }
 fieldset{
     border: none;
@@ -221,10 +223,12 @@ legend {
 
 }
 .btn{
-    background-color: #0C7AC9;
+    /* background-color: #0C7AC9; */
+    background: linear-gradient(180deg,#167ccc 0,#0077c5);
     border: 0px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
     color: white;
+    cursor: pointer;
 
 }
 
@@ -243,15 +247,35 @@ legend {
 #create-account{
     width: 320px;
     box-sizing: border-box;
-    height: 34px;
+    height: 44px;
     border-radius: 4px;
     border-style: solid;
 }
+
+#create-acc-cta {
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 1.3em;
+    color:#fff;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+}
+
 #terms-privacy{
     text-align: center;
     padding-top: 30px;
     line-height: 1.5;
+    font-size: 14px;
+    font-style: italic;
+    color: #757575;
 }
+
+.loafers {
+    display: block;
+    min-height: 10px;
+}
+
 ul{
     list-style: none;
     display: inline;
@@ -267,11 +291,23 @@ li {
 
 a {
     text-decoration: none;
+    color: #0077c5;
 }
 
 .footer-item{
     padding: 10px;
 }
+
+.footer-item a {
+    color: #505050;
+    
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+
 
 footer{
     text-align: center;
