@@ -78,6 +78,10 @@ body {
   height: 35px;
   display: block;
   margin: 0 auto;
+  animation-name: logo-fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 
 .sign-up-logo-header {
@@ -348,4 +352,9 @@ footer {
   .navigation-wrapper {
     display: none;
   }
+}
+
+@keyframes logo-fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
