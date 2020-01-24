@@ -98,38 +98,42 @@ body {
 }
 
 #turbotax-icon {
-  background-image: url(img/tt-favicon.svg);
+  background-image: url(img/ecosystem_logos.png);
+  background-position: 0 -57px;
 }
 
 #turbotax-text {
-  background-image: url(img/turbo-tax-text.svg);
+  background-image: url(img/ecosystem_logos.png);
+  background-position: -27px -59px;
   width: 74px;
   background-repeat: no-repeat;
   padding-right: 9px;
 }
 
 #quickbooks-icon {
-  background-image: url(img/quickbooks-favicon.svg);
+  background-image: url(img/ecosystem_logos.png);
+  background-position: -114px -57px;
 }
 
 #quickbooks-text {
-  background-image: url(img/quick-books-text.svg);
+  background-image: url(img/ecosystem_logos.png);
+  background-position: -143px -59px;
   width: 98px;
   background-repeat: no-repeat;
   padding-right: 9px;
 }
 
 #mint-icon {
-  background-image: url(img/mint-favicon.svg);
+  background-image: url(img/ecosystem_logos.png);
+  background-position: -254px -57px;
 }
 
 #mint-text {
-  background-image: url(img/mint-text.svg);
-  width: 37px;
-  box-sizing: border-box;
-  background-position: 0 2px;
-  height: 20px;
+  background-image: url(img/ecosystem_logos.png);
+  background-position: -280px -59px;
+  width: 40px;
   background-repeat: no-repeat;
+  padding-right: 9px;
 }
 
 #main-header {
@@ -325,4 +329,23 @@ footer {
   position: fixed;
   right: 5%;
   bottom: 0;
+  background-color: #6B6C72;
+  border-radius: 3px;
+  z-index: 100;
+  cursor: pointer;
+  display: block;
+  /* outline: none; */
+  box-sizing: border-box;
+}
+
+.privacy-settings {
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media (max-width: 767px){
+  .navigation-wrapper {
+    display: none;
+  }
 }
