@@ -4,8 +4,6 @@
 
 ![screenshot](img/screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML
