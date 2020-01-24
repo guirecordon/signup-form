@@ -46,7 +46,7 @@
                 </header>
             </div>
             <div class="space"></div>
-            <div id="form-container">
+            <form id="form-container">
                 <header id="header-container">
                     <h1 id="sign-up-header">Create an intuit account</h1>
                     <div id="subheader-prompt">
@@ -54,35 +54,38 @@
                         <a id="learn-more" href="#">Learn more</a>
                     </div>
                 </header>
-                <div id="form-elements">
+                <fieldset id="form-elements">
                     <label id="label-email" for="email">
                         Email adress
-                        <input id="email" class="input-field text-input-container">
+                        <input maxlength="100" type="email" name="email" id="email"
+                            class="input-field text-input-container" required>
                         <span class="loafers"></span>
                     </label>
                     <label id="label-phone" for="phone">
                         Phone (recommended)
-                        <input id="phone" class="input-field text-input-container">
+                        <input maxlength="17" type="tel" name="telephone-number" id="phone"
+                            class="input-field text-input-container">
+                        <legend>Standard call, messaging or data rates may apply.</legend>
                     </label>
-                    <div class="legend">Standard call, messaging or data rates may apply.</div>
                     <label id="label-password" for="password">
                         Password
-                        <input id="password" type="password" class="input-field text-input-container">
+                        <input id="password" type="password" name="password" class="input-field text-input-container"
+                            required>
                         <span id="open-lock"></span>
                     </label>
-                    <button id="create-account" class="btn input-field">
+                    <button type="submit" name="create-account" id="create-account" class="btn input-field">
                         <span class="create-acc-lock"></span>
                         <span id="create-acc-cta">Create Account</span>
                     </button>
-                </div>
-                <div id="terms-privacy" class="legend">
+                </fieldset>
+                <legend id="terms-privacy">
                     By clicking Create account, you agree to our
                     <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
-                </div>
+                </legend>
                 <div id="form-footer">
                     Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
                 </div>
-            </div>
+            </form>
         </div>
     </section>
     <footer>
@@ -105,6 +108,12 @@
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </span>
     </footer>
+    <section class="consent-button">
+        <div class="privacy-settings">
+            Privacy Setting
+        </div>
+
+    </section>
 </body>
 
 </html>
