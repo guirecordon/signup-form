@@ -102,8 +102,6 @@ body {
 }
 
 #turbotax-icon {
-  /* background-image: url(img/ecosystem_logos.png);
-  background-position: 0 -57px; */
   background-image: url(img/tt-favicon.svg);
   animation-name: red-circle;
   background-size: auto;
@@ -111,13 +109,12 @@ body {
   height: 23px;
   display: inline-block;
   left: 142px;
-  /* transition-timing-function: cubic-bezier(.7,0,0,1); */
   animation-timing-function: ease-in-out;
-  /* animation-play-state: running; */
   animation-delay: 0;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   position: relative;
+  z-index: 1;
 }
 
 #turbotax-text {
@@ -154,8 +151,17 @@ body {
   padding-right: 9px;
 }
 
+.fade-in {
+  animation-name: logo-fade-in;
+  position: relative;
+  opacity: 0;
+  animation-duration: 2.5s;
+  animation-delay: 1.2s;
+  animation-timing-function: cubic-bezier(.7,0,0,1), ease-in;
+  animation-fill-mode: forwards;
+}
+
 #main-header {
-  /* margin: 20px; */
   padding: 20px 0;
 }
 
@@ -171,6 +177,7 @@ body {
   width: 380px;
   padding: 30px;
   box-sizing: border-box;
+  overflow: visible;
 }
 
 #subheader-prompt {
