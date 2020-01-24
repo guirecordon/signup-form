@@ -33,16 +33,14 @@
     </header>
     <div class="space"></div>
     <main>
-        <header class="sign-up-logo-header">
-            <ul>
-                <li id="turbotax-icon" class="favicons"></li>
-                <li id="turbotax-text" class="texticons fade-in"></li>
-                <li id="quickbooks-icon" class="favicons fade-in"></li>
-                <li id="quickbooks-text" class="texticons fade-in"></li>
-                <li id="mint-icon" class="favicons fade-in"></li>
-                <li id="mint-text" class="texticons fade-in"></li>
-            </ul>
-        </header>
+        <ul class="sign-up-logo-header">
+            <li id="turbotax-icon" class="favicons"></li>
+            <li id="turbotax-text" class="texticons fade-in"></li>
+            <li id="quickbooks-icon" class="favicons fade-in"></li>
+            <li id="quickbooks-text" class="texticons fade-in"></li>
+            <li id="mint-icon" class="favicons fade-in"></li>
+            <li id="mint-text" class="texticons fade-in"></li>
+        </ul>
         <div class="space"></div>
         <form id="form-container">
             <header id="header-container">
@@ -63,8 +61,10 @@
                     Phone (recommended)
                     <input maxlength="17" type="tel" name="telephone-number" id="phone"
                         class="input-field text-input-container">
-                    <legend>Standard call, messaging or data rates may apply.</legend>
                 </label>
+                <div class="legend">
+                    Standard call, messaging or data rates may apply.
+                </div>
                 <label id="label-password" for="password">
                     Password
                     <input id="password" type="password" name="password" class="input-field text-input-container"
@@ -76,10 +76,10 @@
                     <span id="create-acc-cta">Create Account</span>
                 </button>
             </fieldset>
-            <legend id="terms-privacy">
+            <div id="terms-privacy" class="legend">
                 By clicking Create account, you agree to our
                 <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
-            </legend>
+            </div>
             <div id="form-footer">
                 Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
             </div>
@@ -105,12 +105,11 @@
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </span>
     </footer>
-    <section class="consent-button">
+    <div class="consent-button">
         <div class="privacy-settings">
             Privacy Setting
         </div>
-
-    </section>
+    </div>
 </body>
 
 </html>
